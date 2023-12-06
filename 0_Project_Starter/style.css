@@ -1,0 +1,17 @@
+/* took this complete import url from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* this is universal stayle element (*) css within this will be applied throughout */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
